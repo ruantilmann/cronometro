@@ -1,2 +1,2 @@
-# cronometro
+# Cronômetro
 Cronômetro com js
