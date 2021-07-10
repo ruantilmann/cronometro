@@ -1,4 +1,6 @@
 # Cronômetro
-Cronômetro com JavaScrip
+Cronômetro em JavaScript
 
-https://ruantilmann.github.io/cronometro/
+Acesse em: https://ruantilmann.github.io/cronometro/
+
+Repositório de Estudos 
