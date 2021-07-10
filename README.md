@@ -1,4 +1,4 @@
 # Cronômetro
-Cronômetro com js
+Cronômetro com JavaScrip
 
 https://ruantilmann.github.io/cronometro/
