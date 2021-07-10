@@ -6,13 +6,19 @@
 
 body {
     width: 100%;
-    font: normal bold 16px/normal tahoma;
+    font: normal bold 16px/normal Verdana;
 }
 
 article {
     width: 300px;
     text-align: center;
     background-color: #68b04d;
+    background: #68B04D;
+    background-image: -webkit-linear-gradient(top, #68B04D, #466E37);
+    background-image: -moz-linear-gradient(top, #68B04D, #466E37);
+    background-image: -ms-linear-gradient(top, #68B04D, #466E37);
+    background-image: -o-linear-gradient(top, #68B04D, #466E37);
+    background-image: -webkit-gradient(to bottom, #68B04D, #466E37);
     border-radius: 10px;
     margin: 50px auto 20px;
     padding: 5px;
@@ -20,8 +26,8 @@ article {
     box-shadow: 3px 3px 10px #ccc;
 }
 
-article h3 {
-    padding: 10px;
+article h3, h4 {
+    padding: 5px;
     color: #fff;
 }
 
@@ -33,4 +39,49 @@ article #timer{
     padding: 5px;
     color: crimson;
     background-color: aliceblue;
+    border-radius: 10px;
 }
+
+article .inputTime, .inputTime:focus, input:focus, select:focus {
+    border: 0 none;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.btn {
+    background: #68B04D;
+    background-image: -webkit-linear-gradient(top, #68B04D, #466E37);
+    background-image: -moz-linear-gradient(top, #68B04D, #466E37);
+    background-image: -ms-linear-gradient(top, #68B04D, #466E37);
+    background-image: -o-linear-gradient(top, #68B04D, #466E37);
+    background-image: -webkit-gradient(to bottom, #68B04D, #466E37);
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    color: #FFFFFF;
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px;
+    border: solid #466E37 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    border: solid #466E37 0;
+    background: #457633;
+    background-image: -webkit-linear-gradient(top, #457633, #466E37);
+    background-image: -moz-linear-gradient(top, #457633, #466E37);
+    background-image: -ms-linear-gradient(top, #457633, #466E37);
+    background-image: -o-linear-gradient(top, #457633, #466E37);
+    background-image: -webkit-gradient(to bottom, #457633, #466E37);
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    text-decoration: none;
+ }

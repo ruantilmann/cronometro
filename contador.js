@@ -1,20 +1,26 @@
 window.addEventListener("load", () => {
 
-    const botao = document.getElementById("inicia");
+    const botao = document.getElementById("inicia"); //Evento de click no botão Iniciar
 
     botao.addEventListener("click", () =>{
 
         const getTime = document.getElementById("inputTime").value;
 
-        //Tempo, em segundos, que queremos.
+        //Tempo, em segundos
         let sec = getTime;
+        let timeNum = parseInt(getTime)
 
         const countDiv = document.getElementById('timer');
 
         if(getTime == ""){
-            window.alert("Insira um valor númerico!")
+            window.alert("Insira um valor!") //Aqui se o input estiver vazio, ele irá alertar para informar um valor
         } 
+        else if(isNaN(getTime)){
+            window.alert("Insira um valor Númerico!")
+            //console.log(`Valor é ${timeNum} e o Tipo é:${typeof(timeNum)}`) Teste de verificação do tipo do dado
+        }
         else {
+            //console.log(`Valor é ${timeNum} e o Tipo é:${typeof(timeNum)}`) Teste de verificação do tipo do dado
             const secpass = () => {
 
                 min = Math.floor( sec / 60 );
